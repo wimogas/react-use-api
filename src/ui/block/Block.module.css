@@ -1,0 +1,13 @@
+.block {
+  display: flex;
+}
+
+.card {
+  background: white;
+  color: var(--color-secondary-dark);
+  border-radius: 6px;
+}
+
+.empty {
+  color: rgb(145, 145, 145);
+}

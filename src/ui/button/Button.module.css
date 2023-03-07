@@ -1,0 +1,52 @@
+.button {
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    transition: all .3s;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    width: fit-content;
+}
+
+.button:disabled {
+    cursor: initial;
+    background-color: var(--color-secondary-darker);
+    color: var(--color-secondary-dark);
+}
+
+.button:hover {
+    background-color: rgb(184, 184, 184);
+    transition: all .3s;
+}
+
+.primary {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-primary);
+}
+
+.primary:hover {
+    background-color: var(--color-secondary-darker);
+}
+
+.secondary {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-secondary);
+}
+
+.secondary:hover {
+    background-color: var(--color-secondary-darker);
+}
+
+.tertiary {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.tertiary:hover {
+    background-color: var(--color-secondary-light);
+}

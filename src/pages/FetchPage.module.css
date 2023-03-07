@@ -1,0 +1,37 @@
+.item {
+  padding: 12px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.common {
+  border: 1px solid #777777;
+  color: #777777;
+  background-color: #333333;
+}
+
+.uncommon {
+  border: 1px solid #85b159;
+  color: #85b159;
+  background-color: #213a16;
+}
+
+.rare {
+  border: 1px solid #247dd1;
+  color: #247dd1;
+  background-color: #0b1c4b;
+}
+
+.epic {
+  border: 1px solid #af6bcf;
+  color: #af6bcf;
+  background-color: #360a4d;
+}
+
+.legendary {
+  border: 1px solid #d89d3f;
+  color: #d89d3f;
+  background-color: #6e4a19;
+}
