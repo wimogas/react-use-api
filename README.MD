@@ -1,6 +1,4 @@
-# React Starter App
-
-[DEMO](https://react-starter-app-seven.vercel.app/)
+# React useApi hook
 
 ## Author
 Guillem Moya
